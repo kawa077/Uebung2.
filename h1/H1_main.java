@@ -3,7 +3,7 @@ package h1;
 public class H1_main {
 public static void main (String[] args) {
 	
-	int z=(15);
+	int z=15;
 	
 	if (z>10) {
 		
