@@ -8,28 +8,21 @@ public class H2_main {
 		int min=3;
 		int max=15;
 		
-		if (i>j && j>k){
-			 
-			min=k;
-			max=i;
-			
-		
-		}else if (j>i && i>k) {
-		
-			min=k;
-			max=j;
-				
-		}else if (j>k && k>i) {
-			
-				
-				min=i;
-				max=j;
-
-    }else if (k>i && i>j) {
-    	
-    	min=j;
-    	max=k;
-    }
+	if (i<j && i<k) {
+		min=i;
+	} else if(k<i && k<j) {
+		min=k;
+	} else {
+		min=j;
+	}
+	
+	if (i>j && i>k) {
+		max=i;
+	} else if (k>i && k>j) {
+		max=k;
+	} else {
+		max=j;
+	}
 		System.out.println(max);
 		System.out.println(min);
 	}

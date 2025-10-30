@@ -18,7 +18,7 @@ public class H3_main {
 		if (i<=j && i<=200 && j<=100) {
 		k=4;	
 		}
-		System.out.println (k);
+		System.out.println(k);
 	}
 }
 
